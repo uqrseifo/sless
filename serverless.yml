@@ -20,9 +20,9 @@ service: sless # NOTE: update this with your service name
 provider:
   name: aws
   runtime: nodejs6.10
-  role: arn:aws:iam::665603700404:role/basic-serverless-code-build-role
+  role: arn:aws:iam::665603700404:role/basic-serverless-code-build-role2
 
-# you can overwrite defaults here
+  # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1
 
